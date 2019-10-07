@@ -1,2 +1,2 @@
-console.log('nope!');
-alert('Yup!');
+console.log('Hello...');
+console.log('World!');
