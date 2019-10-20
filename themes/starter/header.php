@@ -8,4 +8,12 @@
   <link rel="profile" href="https://gmpg.org/xfn/11" />
 	<?php wp_head(); ?>
 </head>
-<body>
+<body <?php body_class(); ?>>
+  <header>
+    <h2>
+      <a href="/">
+        <?php echo get_bloginfo( 'name' ) ?>
+      </a>
+    </h2>
+    <?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
+  </header>
