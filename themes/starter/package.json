@@ -15,6 +15,8 @@
     "gulp-uglify": "^3.0.2"
   },
   "dependencies": {
-    "lodash.update": "^4.10.2"
+    "kind-of": "^6.0.3",
+    "lodash.update": "^4.10.2",
+    "minimist": "^1.2.5"
   }
 }
